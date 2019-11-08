@@ -1,0 +1,16 @@
+//版本号  默认使用2.0
+syntax = "proto3";
+
+//指定包名
+package pd;
+
+
+//标示位本
+message Stu{
+    //名字
+    int32 score =1;
+    string name =3;
+
+    repeated string ClassName =4;
+}
+
